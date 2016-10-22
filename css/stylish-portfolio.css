@@ -191,7 +191,11 @@ hr.small {
     background-size: cover;
     -o-background-size: cover;
 }
-
+.callouttext {
+    width: 75%;
+    margin: 5px auto;
+    text-align: left;
+}
 /* Portfolio */
 
 .portfolio {
