@@ -200,7 +200,7 @@ hr.small {
     margin-bottom: 30px;
 }
 
-.portfolio-item a:hover, .portfolio-item a:active {
+.portfolio-item a:visited, .portfolio-item a:hover, .portfolio-item a:active {
     text-decoration: none;
 }
 
