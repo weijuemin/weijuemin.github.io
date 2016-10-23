@@ -168,6 +168,14 @@ hr.small {
     padding: 50px 0;
 }
 
+.photo img {
+    width: 100%;
+}
+
+.lead {
+    text-align: left;
+}
+
 /* Services */
 
 .services {
@@ -178,23 +186,9 @@ hr.small {
     margin-bottom: 30px;
 }
 
-/* Callout */
-
-.callout {
-    display: table;
-    width: 100%;
-    height: 400px;
-    color: #fff;
-    background: url(../img/callout.jpg) no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-.callouttext {
-    width: 75%;
-    margin: 5px auto;
-    text-align: left;
+.skills-bg {
+    background: url('../img/callout.jpg') no-repeat center center;
+    background-size: 100% 100%;
 }
 /* Portfolio */
 
@@ -206,14 +200,63 @@ hr.small {
     margin-bottom: 30px;
 }
 
+.portfolio-item a:hover, .portfolio-item a:active {
+    text-decoration: none;
+}
+
 .img-portfolio {
     margin: 0 auto;
+    height: 35vh;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.img-portfolio:hover {
-    opacity: 0.8;
+.porttext {
+    color: #fff;
+    background-color: rgba(50,54,89,.4);
+    padding: 8%;
+    width: 100%;
+    height: 100%;
 }
 
+.porttext:hover {
+    background-color: rgba(50,54,89,.9);
+}
+.img-portfolio p {
+    color: #ccc;
+}
+
+.img-portfolio1 {
+    background-image: url('../img/split.png');
+}
+
+.img-portfolio2 {
+    background-image: url('../img/portfolio-2.jpg');
+}
+
+.img-portfolio3 {
+    background-image: url('../img/discussion_board.png');
+}
+
+.img-portfolio4 {
+    background-image: url('../img/portfolio-4.jpg');
+}
+
+.img-portfolio5 {
+    background-image: url('../img/group_member.jpg');
+}
+
+.img-portfolio6 {
+    background-image: url('../img/hangout.png');
+}
+
+.img-portfolio7 {
+    background-image: url('../img/wishlist.jpg');
+}
+
+.img-portfolio8 {
+    background-image: url('../img/travel_manager.png');
+}
 /* Call to Action */
 
 .call-to-action {
@@ -224,22 +267,9 @@ hr.small {
     margin: 10px;
 }
 
-/* Map */
-
-.map {
-    height: 500px;
+.webicons {
+    height: 60px;
 }
-
-@media(max-width:768px) {
-    .map {
-        height: 75%;
-    }
-}
-
-.map iframe {
-    pointer-events: none;
-}
-
 /* Footer */
 
 footer {

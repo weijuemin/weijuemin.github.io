@@ -44,13 +44,13 @@
         <a href="#top" onclick=$("#menu-close").click();>Home</a>
       </li>
       <li>
-        <a href="#about" onclick=$("#menu-close").click();>About</a>
+        <a href="#about" onclick=$("#menu-close").click();>About Juemin</a>
       </li>
       <li>
-        <a href="#services" onclick=$("#menu-close").click();>Services</a>
+        <a href="#services" onclick=$("#menu-close").click();>Skills</a>
       </li>
       <li>
-        <a href="#portfolio" onclick=$("#menu-close").click();>Portfolio</a>
+        <a href="#portfolio" onclick=$("#menu-close").click();>Projects</a>
       </li>
       <li>
         <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
@@ -62,7 +62,7 @@
   <header id="top" class="header">
     <div class="text-vertical-center">
       <h1>Juemin Wei</h1>
-      <h3>Full stack developer</h3>
+      <h3>Full Stack Developer</h3>
       <br>
       <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
     </div>
@@ -74,7 +74,20 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2>About Juemin</h2>
-          <p class="lead">Juemin is a self-motivated professional with passion on web development. With a non-technical background, Juemin decided to learn about the industry and soon found herself very passionate about it. Now she’s equipped with three full-stacks’ coding skill 2sets, has several ongoing projects deployed on AWS, and is looking for opportunities that can train a full-stack or front end developer.</p>
+          <hr class="small">
+          <div class="row">
+            <div class="col-md-4 photo">
+              <img src="img/juemin.jpg" alt="Juemin">
+            </div>
+            <div class="col-md-8">
+              <p class="lead"><u>Summary</u><br>
+              <br>Juemin is a self-motivated professional with passion on web development. With a non-technical background, Juemin decided to learn about the industry and soon found herself very passionate about it. Now she’s equipped with three full-stacks’ coding skill 2sets, has several ongoing projects deployed on AWS, and is looking for a position on which she can learn more as a full-stack or front end developer. <br><br>
+              <u>Why switch to IT industry?</u>
+              <br><br>In 2014, Juemin got a master's degree of Public Administration at University of Washington (Seattle). With no STEM background, it was never easy getting to the decision of an entire career change to the IT industry. A chance at Seattle Glove Inc became Juemin's career turning point. In November 2015, she had a conversation with her supervisor and decided to rebuild the company's 20 years old website, which had hundreds of products' information hard coded - far away from a modern website. Juemin started learning web development techniques since then. In two months, she created a MySQL database holding the product information as well as rebuilt the website with PHP on back end.<br>
+              <br>During this task, Juemin found herself very passionate about coding. So Juemin attended a coding bootcamp at <a href="http://www.codingdojo.com/">CodingDojo</a> in June 2016. It is an intense 14-week program that trains students to become self-sufficient developers. Three full stacks are introduced during the time with a large amount of individual/group projects (GitHub based) assigned, which helps students learn from real practice.<br>
+              <br>Juemin learned three stacks at coding dojo: <b>Python</b> (on Django or Flask), <b>Ruby on Rails</b>, and <b>MEAN</b> (MongoDB, Express, AngularJS, NodeJS), and got three <strong>Black Belts</strong> for all stacks.</p>
+            </div>
+          </div>
         </div>
       </div>
       <!-- /.row -->
@@ -84,7 +97,7 @@
 
   <!-- Services -->
   <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-  <section id="services" class="services bg-primary">
+  <section id="services" class="services bg-primary skills-bg">
     <div class="container">
       <div class="row text-center">
         <div class="col-lg-10 col-lg-offset-1">
@@ -149,52 +162,118 @@
     <!-- /.container -->
   </section>
 
-  <!-- Callout -->
-  <aside class="callout">
-    <div class="text-vertical-center">
-      <h1>Career change motivation</h1><br>
-      <p class="callouttext">in 2014, Juemin got a master's degree of Public Administration at University of Washington (Seattle). With no STEM background, it was never easy getting to the decision of an entire career change to the IT industry. A chance at Seattle Glove Inc became Juemin's career turning point. In November 2015, she had a conversation with her supervisor and decided to rebuild the 20 years old websites, which had all product information hard coded, far away from a modern website.
-      <br></p>
-    </div>
-  </aside>
+
   <section id="portfolio" class="portfolio">
     <div class="container">
       <div class="row">
         <div class="col-lg-10 col-lg-offset-1 text-center">
-          <h2>Our Work</h2>
-          <hr class="small">
+          <h2>Projects (deployed on AWS)</h2>
+          <hr>
           <div class="row">
             <div class="col-md-6">
               <div class="portfolio-item">
-                <a href="#">
-                  <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
+                <a target="_blank" href="http://52.88.226.138">
+                  <div class="img-portfolio img-responsive img-portfolio1">
+                    <div class="porttext">
+                      <h3>$plit</h3>
+                      <h4>- Ruby on Rails -</h4>
+                      <p>This responsive app helps groups of friends, roommates, or families record and split mutual expenses. For example, three people went for a trip that many expenses happened. By recording these expenses and telling the app how they decide to split at the end, the group members will know their final debt relationship and total balances, and settle up accordingly.</p>
+                    </div>
+                  </div>
                 </a>
               </div>
             </div>
             <div class="col-md-6">
               <div class="portfolio-item">
-                <a href="#">
-                  <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
+                <a href="http://52.43.244.91/online_lending/register" target="_blank">
+                  <div class="img-portfolio img-responsive img-portfolio2">
+                    <div class="porttext">
+                      <h3>Online lending</h3>
+                      <h4>- Ruby on Rails -</h4>
+                      <p>An online lending/borrowing system that users can register as lender or borrower. A borrower may raise money up to the amount needed whereas the lenders will be able to see a list of borrowers and lend a customized amount. The lender may add money to the account but can’t lend more than the balance.</p>
+                    </div>
+                  </div>
                 </a>
               </div>
             </div>
             <div class="col-md-6">
               <div class="portfolio-item">
-                <a href="#">
-                  <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
+                <a href="http://54.68.112.144" target="_blank">
+                  <div class="img-portfolio img-responsive img-portfolio3">
+                    <div class="porttext">
+                      <h3>Discussion board</h3>
+                      <h4>- MEAN -</h4>
+                      <p>A responsive app similar to stack overflow. Users can post topics, then other people can answer, post comments to answers, and vote (up and down). Everyone will be able to vote once for an answer.</p>
+                    </div>
+                  </div>
                 </a>
               </div>
             </div>
             <div class="col-md-6">
               <div class="portfolio-item">
-                <a href="#">
-                  <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
+                <a href="http://54.70.216.151" target="_blank">
+                  <div class="img-portfolio img-responsive img-portfolio4">
+                    <div class="porttext">
+                      <h3>Q and A</h3>
+                      <h4>- MEAN -</h4>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="portfolio-item">
+                <a href="http://52.34.219.135" target="_blank">
+                  <div class="img-portfolio img-responsive img-portfolio5">
+                    <div class="porttext">
+                      <h3>Group membership</h3>
+                      <h4>- Ruby on Rails -</h4>
+                      <p>This responsive app is a group management platform that allows users to create, search and join groups.</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="portfolio-item">
+                <a href="http://52.37.91.216" target="_blank">
+                  <div class="img-portfolio img-responsive img-portfolio6">
+                    <div class="porttext">
+                      <h3>Hangout</h3>
+                      <h4>- Ruby on Rails -</h4>
+                      <p>Responsive app that acts like an event manager. You can create an event, search for other events based on locations and join them.</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="portfolio-item">
+                <a href="http://52.41.119.205" target="_blank">
+                  <div class="img-portfolio img-responsive img-portfolio7">
+                    <div class="porttext">
+                      <h3>Wish List</h3>
+                      <h4>- Python with Django -</h4>
+                      <p>A website that manages users’ wish list items. Users are able to add their own items as well as others.</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="portfolio-item">
+                <a href="http://52.40.136.185/travelbuddy/main" target="_blank">
+                  <div class="img-portfolio img-responsive img-portfolio8">
+                    <div class="porttext">
+                      <h3>Travel Manager</h3>
+                      <h4>- Python with Django -</h4>
+                      <p>Travel planner app. Will be able to add your own travel plans and join others’.</p>
+                    </div>
+                  </div>
                 </a>
               </div>
             </div>
           </div>
-          <!-- /.row (nested) -->
-          <a href="#" class="btn btn-dark">View More Items</a>
         </div>
         <!-- /.col-lg-10 -->
       </div>
@@ -207,10 +286,18 @@
   <aside class="call-to-action bg-primary">
     <div class="container">
       <div class="row">
+
         <div class="col-lg-12 text-center">
-          <h3>The buttons below are impossible to resist.</h3>
-          <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-          <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
+          <h3>GitHub and LinkedIn</h3>
+          <ul class="list-inline">
+          <br>
+            <li>
+              <a target="_blank" href="https://github.com/weijuemin"><img class="webicons" src="img/linkedin_logo.png" alt="LinkedIn"></a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.linkedin.com/in/jueminwei"><img class="webicons" src="img/github_logo.png" alt="GitHub"></a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
@@ -221,22 +308,13 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-10 col-lg-offset-1 text-center">
-          <h4><strong>Juemin Wei</strong>
+          <h4><strong>Contact Information</strong>
           </h4>
           <p>17112 NE 45th St,
             <br>Redmond, WA 98052</p>
           <ul class="list-unstyled">
             <li><i class="fa fa-phone fa-fw"></i> 206-618-2536</li>
             <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:weijueminjas@gmail.com">weijueminjas@gmail.com</a>
-            </li>
-          </ul>
-          <br>
-          <ul class="list-inline">
-            <li>
-              <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
             </li>
           </ul>
         </div>
